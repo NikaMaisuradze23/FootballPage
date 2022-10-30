@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+    text-transform:  capitalize;
+    font-weight: 400;
+    transition: all .2 linear;
+}
+
+*::selection {
+    background: #354046;
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2rem 1rem;
+    z-index: 1000;
+
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #354046;
+}
+
+header a:hover{
+    color: #0188dF;
+}
+
+
+header .container .logo{
+    font-size: 3rem;
+
+}
+
+header .container .logo span{
+    color: #0188dF;
+
+}
+
+header .nav ul{
+    margin: 0;
+    padding: 0;
+
+}
+
