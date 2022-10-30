@@ -77,6 +77,12 @@ header {
 
 }
 
+.header-active{
+    background-color: #fff;
+    box-shadow: 0 .1rem .3rem rgb(0, 0, 0, .3);
+    padding: .5rem 1rem;
+}
+
 
 header .container{
     display: flex;
@@ -199,8 +205,74 @@ header .fa-times{
 }
 
 .home .container h3{
-    font-size: 4rem;
     color: #354046;
 
 }
 
+.about {
+    background:  #eee;
+
+}
+
+.about .content .box {
+    margin: 3rem 0;
+    font-size: 20px;
+}
+
+.about .content .box h3 {
+    font-size: 2.5rem;
+    color: #354046;
+}
+
+.about .content .box h3 i{
+    padding: 0 1rem;
+    color: #0188dF;
+}
+
+.about .content .box p {
+    font-size: 1.7rem;
+    color: #666;
+}
+
+.players {
+    min-height: 100vh;
+
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem;
+    padding-top: 8rem;
+    color: #354046;
+}
+
+.heading span{
+    color: #0188dF;
+} 
+
+.players .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+
+}
+
+.players .box-container .box {
+    height:  20rem;
+    width: 30rem;
+    margin: .3rem;
+    overflow: hidden;
+}
+
+.players .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.players .box-container .box:hover img{
+    transform: scale(1.3);
+}
